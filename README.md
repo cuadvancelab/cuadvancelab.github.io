@@ -19,7 +19,7 @@ Here is a short [guide](https://pages.github.com/)
 9. Add changed files: `git add <file>` or `git add -A`
 10. Commit changes: `git commit -m "your message"`
 11. Push changes to your forked repo:  `git push`
-12. Go back to your repository where you created your fork and follow the instructions on [github](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork) to create a pull request (PR). Note, the 'head branch' should be the branch you made your changes in (the branch you created above). The 'base branch' should be 'master'. Don't forget to add a little description of your changes. Code maintainers will review the changes and merge it
+12. Go back to your repository where you created your fork and follow the instructions on [github](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork) to create a pull request (PR). Note, the 'head branch' should be the branch you made your changes in (the branch you created above). The 'base branch' should be 'main'. Don't forget to add a little description of your changes. Code maintainers will review the changes and merge it
 13. Once merged, the changes should reflect on the website 
 
 Note: On subsequent changes, you have this repo already in your local machine and a fork on your github repository. To keep the forked repository up to date with the original repository, follow these [instructions](https://stackoverflow.com/questions/39819441/keeping-a-fork-up-to-date)
