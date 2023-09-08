@@ -137,9 +137,23 @@ body {
     padding-right: 0px;
   }
   
+  .sponsor {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sponsor-logo-wrapper {
+    width: 25%;
+  }
+
+  .sponsor-details {
+    padding: 0;
+  }
+
   .brief-intro {
     padding: 5px;
   }
+
   
   .title {
     margin-bottom: 10px;
@@ -534,5 +548,18 @@ body {
   @media screen and (min-width: 990px) {
     .lab-item {
       width: 30%;
+    }
+  }
+
+  @media screen and (min-width: 700px) {
+    .sponsor {
+      flex-direction: row;
+    }
+    .sponsor-logo-wrapper {
+      margin-right: 15px;
+      width: 50%;
+    }
+    .sponsor .brief-intro {
+      width: 80%;
     }
   }
