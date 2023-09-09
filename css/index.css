@@ -99,7 +99,10 @@ body {
   }
   
   .nav-item {
-    font-weight: 300;
+    font-size: 1.1em;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.2;
   }
   
   .layout {
@@ -181,9 +184,13 @@ body {
     margin-bottom: 0px;
   }
   
-  .home-bg, .lab-bg, .publication-bg, .team-bg {
+  .home-bg, .lab-bg, .team-bg {
     padding-top: 3em;
     padding-bottom: 3em;
+  }
+
+  .publication-bg {
+    padding-bottom: 1em;
   }
   
   .footer {
