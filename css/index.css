@@ -563,3 +563,21 @@ body {
       width: 80%;
     }
   }
+
+  /* Design for small screen (tablet) first. If screen is less than 1050px */
+  @media screen and (max-width: 1050px) {
+    .team-wrapper {
+      width: 480px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  /* Mobile screen */
+  @media screen and (max-width: 745px) {
+    .team-wrapper {
+      width: 240px;
+    }
+  }
+
+  
