@@ -441,7 +441,7 @@ body {
     height: 190px;
     background-repeat: no-repeat;
     background-size: 215px 190px;
-    background-image: url(https://via.placeholder.com/215x190);
+    background-image: url(/images/song.jpg);
   }
 
   .pal-image {
@@ -449,7 +449,7 @@ body {
     height: 190px;
     background-repeat: no-repeat;
     background-size: 215px 190px;
-    background-image: url(https://via.placeholder.com/215x190);
+    background-image: url(/images/pal.jpg);
   }
 
   .mohammed-image {
