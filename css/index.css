@@ -11,580 +11,579 @@ body {
     -moz-osx-font-smoothing: grayscale;
   }
   
-  code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-      monospace;
-  }
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
   
-  a {
-    text-decoration: none !important;
-    outline: none !important;
-  }
-
-  a:link, a:visited {
-    text-decoration: none;
-  }
-
-  ul {
-    list-style-type: none;
-  }
-  
-  figure {
-    margin: 0;
-    padding: 0;
-  }
-
-  figcaption {
-    display: block;
-    font-weight: normal;
-    font-size: 1.1em;
-    font-style: normal;
-  }
-  
-  .header {
-    background-color: white;
-    padding: 0.8em 0;
-    z-index: 999;
-    color: black;
-    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 5%), inset 0 -1px 0 rgb(0 0 0 / 15%);
-  }
-  
-  .header-container {
-    width: 100%;
-    position: relative;
-    display: block;
-  }
-  
-  .nav-container, .lab-container {
-    padding-left: 20px;
-    padding-right: 20PX;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 990px;
-  }
-  
-  .hero-bg {
-    background-color: #0B0B45;
-    height: 250px;
-    position: relative;
-    text-align: center;
-    display: block;
-    width: 100%;
-    margin-top: 66px;
-  }
-  
-  .intro-container {
-    color: white;
-  }
-  
-  .nav-link:focus, .nav-link:hover {
-    color: #522D80 !important;
-  }
-  
-  .navbar-light .navbar-nav .nav-link {
-    color: black;
-  }
-  
-  .active, .navbar-brand {
-    color: #522D80 !important;
-  }
-  
-  .navbar-toggler {
-    color: black;
-  }
-  
-  .nav-link {
-    padding-left: 15px !important;
-    padding-right: 15px !important;
-  }
-  
-  .nav-item {
-    font-size: 1.1em;
-    font-weight: normal;
-    font-style: normal;
-    line-height: 1.2;
-  }
-  
-  .layout {
-    position: relative;
-  }
-  
-  .expand {
-    visibility: visible !important;
-    transition-delay: 0s !important;
-  }
-  
-  .bd-overflow {
-    overflow-y: hidden;
-  }
-  
-  .hero-title {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    color: white;
-    transform: translate(-50%, -50%);
-    font-size: 1.4rem;
-    font-weight: 600;
-  }
-  
-  .lab-container {
-    display: flex;
-    flex-direction: column;
-    margin-top: 5em;
-    margin-bottom: 3em;
-  }
-  
-  .container-fluid {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-  
-  .sponsor {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .sponsor-logo-wrapper {
-    width: 25%;
-  }
-
-  .sponsor-details {
-    padding: 0;
-  }
-
-  .brief-intro {
-    padding: 5px;
-  }
-
-  
-  .title {
-    margin-bottom: 10px;
-  }
-  
-  .publication-bg, .home-bg, .lab-bg, .team-bg {
-    background: #fbfbfd;
-  }
-  
-  .publication-bg >.lab-container > .title, .home-bg >.lab-container > .title {
-    margin-top: 30px;
-  }
-  
-  .card {
-    margin-bottom: 30px;
-    border-radius: 0.5rem;
-  }
-  
-  .home-bg >.lab-container > span {
-    margin-bottom: 20px;
-  }
-  
-  .home-bg .lab-container, .lab-bg .lab-container, .team-bg .lab-container {
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
-  
-  .home-bg, .lab-bg, .team-bg {
-    padding-top: 3em;
-    padding-bottom: 3em;
-  }
-
-  .publication-bg {
-    padding-bottom: 1em;
-  }
-  
-  .footer {
-    color: #777;
-  }
-  
-  .line {
-      border-top: 1px solid #BEBEBE;
-      padding-top: 1.5em;
-      font-size: 0.9em;
-  }
-  
-  .custom-card {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-  
-  .home-bg .row {
-    flex-direction: column;
-  }
-  
-  .home-bg .card {
-    max-width: 320px;
-    box-shadow: 0 4px 8px 0 rgb(17 22 26 / 16%), 0 4px 8px 0 rgb(17 22 26 / 8%), 0 8px 16px 0 rgb(17 22 26 / 4%);
-  }
-  
-  .custom-card .btn {
-    color: #0d6efd;
-    border: transparent;
-    background: #fff;
-    box-shadow: 0 4px 8px 0 rgb(17 22 26 / 16%), 0 4px 8px 0 rgb(17 22 26 / 8%), 0 8px 16px 0 rgb(17 22 26 / 4%);
-  }
-  
-  .lab-bg .title {
-    margin-bottom: 20px;
-  }
-  
-  .team-bg .title {
-    margin-bottom: 20px;
-  }
-  
-  .team-bg .col {
-    margin-bottom: 50px;
-    margin-top: 0px;
-  }
-  
-  .team-bg .card {
-    margin-bottom: 0px;
-  }
-  
-  .lab-items-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  
-  .lab-item {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    border: 1px solid #DDD;
-    background-color: #f0f3f7;
-    margin: 0 0 30px 0;
-    height: 100%;
-    min-height: 350px;
-  }
-  
-  .lab-card {
-    width: 50%;
-    border: 1px solid #0d6efd;
-  }
-
-  .lab-item-content-container {
-    margin-top: 40px;
-  }
-
-  .lab-item-content {
-    padding: 0 1.7em;
-  }
-
-.center-text {
-  text-align: center;
+a {
+  text-decoration: none !important;
+  outline: none !important;
 }
 
-  img {
+a:link, a:visited {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+  
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+figcaption {
+  display: block;
+  font-weight: normal;
+  font-size: 1.1em;
+  font-style: normal;
+}
+
+.header {
+  background-color: white;
+  padding: 0.8em 0;
+  z-index: 999;
+  color: black;
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 5%), inset 0 -1px 0 rgb(0 0 0 / 15%);
+}
+
+.header-container {
   width: 100%;
-  }
-  
-  .lab-info-container {
-  margin-top: 10px;
-    margin-right: 15px;
-    margin-bottom: 15px;
-    margin-left: 15px;
-  }
-  
-  .lab-title {
-  padding-top: 20px;
-  padding-bottom: 10px;
-  }
-  
-  .lab-title h2 {
-  font-size: 21px;
-  line-height: 1.2em;
-  }
-  
-  .lab-brief-intro {
-  font-size: 1em;
-  }
-  
-  .labs h4 {
-    margin-bottom: 10px;
-  }
+  position: relative;
+  display: block;
+}
 
-  .labs a {
-    padding: 10px;
-  }
+.nav-container, .lab-container {
+  padding-left: 20px;
+  padding-right: 20PX;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 990px;
+}
 
-  .lab {
-    margin-left: 1em;
-  }
+.hero-bg {
+  background-color: #0B0B45;
+  height: 250px;
+  position: relative;
+  text-align: center;
+  display: block;
+  width: 100%;
+  margin-top: 66px;
+}
 
-  .lab-level li {
-    padding: 10px;
-  }
+.intro-container {
+  color: white;
+}
 
-  .team-list {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: 0;
-    padding: 0;
-  }
+.nav-link:focus, .nav-link:hover {
+  color: #522D80 !important;
+}
 
-  .team-list-item {
-    margin-right: 18px;
-    margin-bottom: 60px;
-    vertical-align: top;
-    display: inline-block;
-  }
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}
 
-  a.profile-card {
-    cursor: pointer;
-    color: inherit;
-    text-decoration: none;
-    display: block;
-  }
+.active, .navbar-brand {
+  color: #522D80 !important;
+}
 
-  .profile-card:hover {
-    text-decoration: none;
-  }
+.navbar-toggler {
+  color: black;
+}
 
-  a.profile-card:hover .team-member-name {
-    text-decoration: underline;
-  }
+.nav-link {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
 
-  .team-member-image {
-    display: inline-block;
-  }
+.nav-item {
+  font-size: 1.1em;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.2;
+}
 
-  .team-member-caption {
-    padding-top: 210px;
-  }
+.layout {
+  position: relative;
+}
 
-  .team-member-name {
-    color: #498ef5;
-    cursor: pointer;
-  }
+.expand {
+  visibility: visible !important;
+  transition-delay: 0s !important;
+}
 
-  .team-member-name {
-    margin-bottom: 7px;
-    font-weight: 500;
-  }
+.bd-overflow {
+  overflow-y: hidden;
+}
 
-  .team-typography {
-    font-size: 15px;
-    line-height: 1.2;
-  }
+.hero-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%, -50%);
+  font-size: 1.4rem;
+  font-weight: 600;
+}
 
-  .team-member-title {
-    margin-bottom: 7px;
+.lab-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5em;
+  margin-bottom: 3em;
+}
+
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.sponsor {
+  display: flex;
+  flex-direction: column;
+}
+
+.sponsor-logo-wrapper {
+  width: 25%;
+}
+
+.sponsor-details {
+  padding: 0;
+}
+
+.brief-intro {
+  padding: 5px;
+}
+
+
+.title {
+  margin-bottom: 10px;
+}
+
+.publication-bg, .home-bg, .lab-bg, .team-bg {
+  background: #fbfbfd;
+}
+
+.publication-bg >.lab-container > .title, .home-bg >.lab-container > .title {
+  margin-top: 30px;
+}
+
+.card {
+  margin-bottom: 30px;
+  border-radius: 0.5rem;
+}
+
+.home-bg >.lab-container > span {
+  margin-bottom: 20px;
+}
+
+.home-bg .lab-container, .lab-bg .lab-container, .team-bg .lab-container {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.home-bg, .lab-bg, .team-bg {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.publication-bg {
+  padding-bottom: 1em;
+}
+
+.footer {
+  color: #777;
+}
+
+.line {
+    border-top: 1px solid #BEBEBE;
+    padding-top: 1.5em;
+    font-size: 0.9em;
+}
+
+.custom-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.home-bg .row {
+  flex-direction: column;
+}
+
+.home-bg .card {
+  max-width: 320px;
+  box-shadow: 0 4px 8px 0 rgb(17 22 26 / 16%), 0 4px 8px 0 rgb(17 22 26 / 8%), 0 8px 16px 0 rgb(17 22 26 / 4%);
+}
+
+.custom-card .btn {
+  color: #0d6efd;
+  border: transparent;
+  background: #fff;
+  box-shadow: 0 4px 8px 0 rgb(17 22 26 / 16%), 0 4px 8px 0 rgb(17 22 26 / 8%), 0 8px 16px 0 rgb(17 22 26 / 4%);
+}
+
+.lab-bg .title {
+  margin-bottom: 20px;
+}
+
+.team-bg .title {
+  margin-bottom: 20px;
+}
+
+.team-bg .col {
+  margin-bottom: 50px;
+  margin-top: 0px;
+}
+
+.team-bg .card {
+  margin-bottom: 0px;
+}
+
+.lab-items-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.lab-item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 1px solid #DDD;
+  background-color: #f0f3f7;
+  margin: 0 0 30px 0;
+  height: 100%;
+  min-height: 350px;
+}
+
+.lab-card {
+  width: 50%;
+  border: 1px solid #0d6efd;
+}
+
+.lab-item-content-container {
+  margin-top: 40px;
+}
+
+.lab-item-content {
+  padding: 0 1.7em;
+}
+
+.center-text {
+text-align: center;
+}
+
+img {
+width: 100%;
+}
+
+.lab-info-container {
+margin-top: 10px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
+
+.lab-title {
+padding-top: 20px;
+padding-bottom: 10px;
+}
+
+.lab-title h2 {
+font-size: 21px;
+line-height: 1.2em;
+}
+
+.lab-brief-intro {
+font-size: 1em;
+}
+
+.labs h4 {
+  margin-bottom: 10px;
+}
+
+.labs a {
+  padding: 10px;
+}
+
+.lab {
+  margin-left: 1em;
+}
+
+.lab-level li {
+  padding: 10px;
+}
+
+.team-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.team-list-item {
+  margin-right: 18px;
+  margin-bottom: 60px;
+  vertical-align: top;
+  display: inline-block;
+}
+
+a.profile-card {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+  display: block;
+}
+
+.profile-card:hover {
+  text-decoration: none;
+}
+
+a.profile-card:hover .team-member-name {
+  text-decoration: underline;
+}
+
+.team-member-image {
+  display: inline-block;
+}
+
+.team-member-caption {
+  padding-top: 210px;
+}
+
+.team-member-name {
+  color: #498ef5;
+  cursor: pointer;
+}
+
+.team-member-name {
+  margin-bottom: 7px;
+  font-weight: 500;
+}
+
+.team-typography {
+  font-size: 15px;
+  line-height: 1.2;
+}
+
+.team-member-title {
+  margin-bottom: 7px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.team-member-employer {
+  margin-bottom: 0;
+}
+
+.drcheng-image {
+  width: 215px;
+  height: 190px;
+  background-repeat: no-repeat;
+  background-size: 215px 190px;
+  background-image: url(/images/longcheng.jpg);
+}
+
+.drhu-image {
+  width: 215px;
+  height: 190px;
+  background-repeat: no-repeat;
+  background-size: 215px 190px;
+  background-image: url(/images/hongxinhu.jpg);
+}
+
+.dryuan-image {
+  width: 215px;
+  height: 190px;
+  background-repeat: no-repeat;
+  background-size: 215px 190px;
+  background-image: url(https://via.placeholder.com/215x190);
+}
+
+.drvishwamitra-image {
+  width: 215px;
+  height: 190px;
+  background-repeat: no-repeat;
+  background-size: 215px 190px;
+  background-image: url(/images/nishant.jpg);
+}
+
+.drwu-image {
+  width: 215px;
+  height: 190px;
+  background-repeat: no-repeat;
+  background-size: 215px 190px;
+  background-image: url(/images/yongkai.jpg);
+}
+
+.ebuka-image {
+  width: 215px;
+  height: 190px;
+  background-repeat: no-repeat;
+  background-size: 215px 190px;
+  background-image: url(/images/ebuka.jpg);
+}
+
+.keyan-image {
+  width: 215px;
+  height: 190px;
+  background-repeat: no-repeat;
+  background-size: 215px 190px;
+  background-image: url(/images/keyan.jpg);
+}
+
+.song-image {
+  width: 215px;
+  height: 190px;
+  background-repeat: no-repeat;
+  background-size: 215px 190px;
+  background-image: url(/images/song.jpg);
+}
+
+.pal-image {
+  width: 215px;
+  height: 190px;
+  background-repeat: no-repeat;
+  background-size: 215px 190px;
+  background-image: url(/images/pal.jpg);
+}
+
+.mohammed-image {
+  width: 215px;
+  height: 190px;
+  background-repeat: no-repeat;
+  background-size: 215px 190px;
+  background-image: url(https://via.placeholder.com/215x190);
+}
+
+.pranav-image {
+  width: 215px;
+  height: 190px;
+  background-repeat: no-repeat;
+  background-size: 215px 190px;
+  background-image: url(/images/pranav.jpg);
+}
+
+.team-list .team-list-item:nth-child(4n) {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 575px) {
+  .nav-link {
+    width: auto;
+    max-width: none;
+    font-size: 18px;
+    line-height: 1.3;
     font-weight: 400;
-    font-size: 16px;
+    position: relative;
+    letter-spacing: 0.02em;
+    padding: 15px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 950px) {
+  .nav-link {
+    padding-left: 9px !important;
+    padding-right: 9px !important;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .nav-list {
+    max-width: 650px;
+    display: block;
+    position: absolute;
+    top: 4em;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 45px 40px 8px;
+    overflow-y: auto;
+    visibility: hidden;
+    transition: visibility 0s linear 0s;
+    z-index: 1;
+    background: white;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .hero-bg {
+    height: 300px;
+  }
+  .hero-title {
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 950px) {
+  .hero-title {
+    font-weight: 800;
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (min-width: 760px) {
+  .home-bg .row {
+    flex-direction: row;
   }
 
-  .team-member-employer {
-    margin-bottom: 0;
+  .custom-card {
+    width: 50%;
   }
+}
 
-  .drcheng-image {
-    width: 215px;
-    height: 190px;
-    background-repeat: no-repeat;
-    background-size: 215px 190px;
-    background-image: url(/images/longcheng.jpg);
-  }
+@media screen and (min-width: 890px) {
+  .home-bg .row :nth-child(even) {
+    justify-content: flex-start;
+  } 
+}
 
-  .drhu-image {
-    width: 215px;
-    height: 190px;
-    background-repeat: no-repeat;
-    background-size: 215px 190px;
-    background-image: url(/images/hongxinhu.jpg);
+@media screen and (min-width: 730px) {
+  .lab-item {
+    width: 45%;
+    margin: 0 30px 30px 0;
   }
+}
 
-  .dryuan-image {
-    width: 215px;
-    height: 190px;
-    background-repeat: no-repeat;
-    background-size: 215px 190px;
-    background-image: url(https://via.placeholder.com/215x190);
+@media screen and (min-width: 990px) {
+  .lab-item {
+    width: 30%;
   }
+}
 
-  .drvishwamitra-image {
-    width: 215px;
-    height: 190px;
-    background-repeat: no-repeat;
-    background-size: 215px 190px;
-    background-image: url(/images/nishant.jpg);
+@media screen and (min-width: 700px) {
+  .sponsor {
+    flex-direction: row;
   }
+  .sponsor-logo-wrapper {
+    margin-right: 15px;
+    width: 50%;
+  }
+  .sponsor .brief-intro {
+    width: 80%;
+  }
+}
 
-  .drwu-image {
-    width: 215px;
-    height: 190px;
-    background-repeat: no-repeat;
-    background-size: 215px 190px;
-    background-image: url(/images/yongkai.jpg);
+/* Design for small screen (tablet) first. If screen is less than 1050px */
+@media screen and (max-width: 1050px) {
+  .team-wrapper {
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
   }
+}
 
-  .ebuka-image {
-    width: 215px;
-    height: 190px;
-    background-repeat: no-repeat;
-    background-size: 215px 190px;
-    background-image: url(/images/ebuka.jpg);
+/* Mobile screen */
+@media screen and (max-width: 745px) {
+  .team-wrapper {
+    width: 240px;
   }
+}
 
-  .keyan-image {
-    width: 215px;
-    height: 190px;
-    background-repeat: no-repeat;
-    background-size: 215px 190px;
-    background-image: url(/images/keyan.jpg);
-  }
-
-  .song-image {
-    width: 215px;
-    height: 190px;
-    background-repeat: no-repeat;
-    background-size: 215px 190px;
-    background-image: url(/images/song.jpg);
-  }
-
-  .pal-image {
-    width: 215px;
-    height: 190px;
-    background-repeat: no-repeat;
-    background-size: 215px 190px;
-    background-image: url(/images/pal.jpg);
-  }
-
-  .mohammed-image {
-    width: 215px;
-    height: 190px;
-    background-repeat: no-repeat;
-    background-size: 215px 190px;
-    background-image: url(https://via.placeholder.com/215x190);
-  }
-
-  .pranav-image {
-    width: 215px;
-    height: 190px;
-    background-repeat: no-repeat;
-    background-size: 215px 190px;
-    background-image: url(https://via.placeholder.com/215x190);
-  }
-
-  .team-list .team-list-item:nth-child(4n) {
-    margin-right: 0;
-  }
-
-  @media screen and (max-width: 575px) {
-    .nav-link {
-      width: auto;
-      max-width: none;
-      font-size: 18px;
-      line-height: 1.3;
-      font-weight: 400;
-      position: relative;
-      letter-spacing: 0.02em;
-      padding: 15px;
-    }
-  }
-  
-  @media screen and (min-width: 576px) and (max-width: 950px) {
-    .nav-link {
-      padding-left: 9px !important;
-      padding-right: 9px !important;
-    }
-  }
-  
-  @media screen and (max-width: 575px) {
-    .nav-list {
-      max-width: 650px;
-      display: block;
-      position: absolute;
-      top: 4em;
-      bottom: 0;
-      right: 0;
-      left: 0;
-      height: 100vh;
-      margin: 0 auto;
-      padding: 45px 40px 8px;
-      overflow-y: auto;
-      visibility: hidden;
-      transition: visibility 0s linear 0s;
-      z-index: 1;
-      background: white;
-    }
-  }
-  
-  @media screen and (min-width: 800px) {
-    .hero-bg {
-      height: 300px;
-    }
-    .hero-title {
-      font-weight: 700;
-      font-size: 1.5rem;
-    }
-  }
-  
-  @media screen and (min-width: 950px) {
-    .hero-title {
-      font-weight: 800;
-      font-size: 1.6rem;
-    }
-  }
-  
-  @media screen and (min-width: 760px) {
-    .home-bg .row {
-     flex-direction: row;
-    }
-  
-    .custom-card {
-      width: 50%;
-    }
-  }
-  
-  @media screen and (min-width: 890px) {
-    .home-bg .row :nth-child(even) {
-      justify-content: flex-start;
-    } 
-  }
-  
-  @media screen and (min-width: 730px) {
-    .lab-item {
-      width: 45%;
-      margin: 0 30px 30px 0;
-    }
-  }
-  
-  @media screen and (min-width: 990px) {
-    .lab-item {
-      width: 30%;
-    }
-  }
-
-  @media screen and (min-width: 700px) {
-    .sponsor {
-      flex-direction: row;
-    }
-    .sponsor-logo-wrapper {
-      margin-right: 15px;
-      width: 50%;
-    }
-    .sponsor .brief-intro {
-      width: 80%;
-    }
-  }
-
-  /* Design for small screen (tablet) first. If screen is less than 1050px */
-  @media screen and (max-width: 1050px) {
-    .team-wrapper {
-      width: 480px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-  }
-
-  /* Mobile screen */
-  @media screen and (max-width: 745px) {
-    .team-wrapper {
-      width: 240px;
-    }
-  }
-
-  
