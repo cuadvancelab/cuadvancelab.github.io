@@ -1,7 +1,12 @@
 This repository contains the code for the lab's website hosted on Github pages and can be accessed at [https://cuadvancelab.github.io](https://cuadvancelab.github.io)
 
 ## Helpful links
-- Bootstrap. Learn [bootstrap](https://getbootstrap.com/). Boostrap is used for fast styling to avoid styling things like buttons from scratch. This reduced the amount of custom styles written.  
+- Bootstrap. Learn [bootstrap](https://getbootstrap.com/). Boostrap is used for fast styling to avoid styling things like buttons from scratch.  
+
+## Notes
+- Images in the about page should have a size of 215 x 190 to save website size and load time
+- Image background should be removed to maintain consistency
+- Files in the instructions folder should be named using the same pattern (e.g lab1_instructions_cs or lab1_instructions_non_cs) to maintain consistency
 
 ## Deployment Information
 This website is hosted on Github pages
@@ -10,7 +15,7 @@ Here is a short [guide](https://pages.github.com/)
 ## Making Changes to the Website
 1. Fork this repository 
 2. Clone the forked repo to get a local copy on your system
-3. Cd in the repo
+3. Cd into the repo
 4. From your web browser open the `index.html` or start a simple python3 server with `python3 -m http.server` in the project directory
 5. Check the branch you are on: `git branch`
 6. Create a new branch to work on your changes: `git branch <branch name>`
